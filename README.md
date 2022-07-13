@@ -1,1 +1,1 @@
-# BE16_PHP_DAY3-Petr-Thomas
+# BE16_PHP_DAY3-Peter-Thomas
