@@ -68,6 +68,26 @@
 
 ?>
 <hr>
+<p class="text-center h1">Exercise 4</p>
+<?php
+echo "<div>";
+for($i=1; $i<=100; $i++){
+    if($i % 3 == 0){
+        if($i % 5 == 0){
+            echo "Full-Stack <br>";
+        } else {
+            echo "Back-End <br>";
+        }
+    }elseif ($i % 5 == 0){
+        echo "Front-End <br>";
+    } else {
+        echo "$i <br>";
+    }
+}
+
+echo "</div>";
+
+?>
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 
